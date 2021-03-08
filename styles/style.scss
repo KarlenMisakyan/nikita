@@ -1,0 +1,109 @@
+$maincolor: #cccccc;
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(/images/ack.jpeg);
+
+   /*linear-gradient(to left bottom, rgb(138, 23, 90), rgb(84, 126, 84));*/
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.weeknd {
+  position: absolute;
+  left: 7%;
+  bottom: 0%;
+  margin: 0;
+  padding: 0;
+  max-height: 240px;
+}
+
+.weeknd img {
+  margin: 0;
+  padding: 0;
+
+  width: 15rem;
+}  
+
+.link {
+  display: flex;
+  margin: .5rem 0rem;
+  padding: 1rem 3rem;
+  align-items: center;
+}
+
+.user h3 {
+  font-size: 2rem;
+  color: #6fe9ff;
+}
+
+.link h2 {
+  padding: 0rem 2rem;
+}
+
+.starboy {
+  position: absolute;
+  right: 10%;  
+  text-align: center;
+  word-wrap: break-word;
+  width: 1ch;
+}
+  
+h1 {
+  font-family: 'Russo One', sans-serif;
+  color: white;
+  font-weight: 600;
+  font-size: 3rem;
+  opacity: 0.8;
+}
+h2,
+p {
+  font-family: "Russo One", serif;
+  color: #673AB7;
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+.glass {
+  background: white;
+  min-height: 80vh;
+  width: 60%;
+  background: linear-gradient(
+    to right top,
+    rgba(138, 23, 90, 0.7),
+    rgba(84, 126, 84, 0.3)
+  );
+  border-radius: 2rem;
+}
+
+.dashboard {
+  width: 20rem;
+  max-height: 80vh;
+  padding: 2rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-radius: 2rem;
+}
+
+.user img {
+  width: 10rem;
+  border-radius: 50%;
+}

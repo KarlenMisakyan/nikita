@@ -1,0 +1,122 @@
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: url(/images/ack.jpeg);
+  /*linear-gradient(to left bottom, rgb(138, 23, 90), rgb(84, 126, 84));*/
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.weeknd {
+  position: absolute;
+  left: 7%;
+  bottom: 0%;
+  margin: 0;
+  padding: 0;
+  max-height: 240px;
+}
+
+.weeknd img {
+  margin: 0;
+  padding: 0;
+  width: 15rem;
+}
+
+.link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: .5rem 0rem;
+  padding: 1rem 3rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.user h3 {
+  font-size: 2rem;
+  color: #6fe9ff;
+}
+
+.link h2 {
+  padding: 0rem 2rem;
+}
+
+.starboy {
+  position: absolute;
+  right: 10%;
+  text-align: center;
+  word-wrap: break-word;
+  width: 1ch;
+}
+
+h1 {
+  font-family: 'Russo One', sans-serif;
+  color: white;
+  font-weight: 600;
+  font-size: 3rem;
+  opacity: 0.8;
+}
+
+h2,
+p {
+  font-family: "Russo One", serif;
+  color: #673AB7;
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+.glass {
+  background: white;
+  min-height: 80vh;
+  width: 60%;
+  background: -webkit-gradient(linear, left bottom, right top, from(rgba(138, 23, 90, 0.7)), to(rgba(84, 126, 84, 0.3)));
+  background: linear-gradient(to right top, rgba(138, 23, 90, 0.7), rgba(84, 126, 84, 0.3));
+  border-radius: 2rem;
+}
+
+.dashboard {
+  width: 20rem;
+  max-height: 80vh;
+  padding: 2rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  text-align: center;
+  background: -webkit-gradient(linear, left top, right bottom, from(rgba(255, 255, 255, 0.7)), to(rgba(255, 255, 255, 0.3)));
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+  border-radius: 2rem;
+}
+
+.user img {
+  width: 10rem;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=style.css.map */
